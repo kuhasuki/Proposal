@@ -6,21 +6,21 @@
 ## New Session
 ![new-session]
 
-## NotesIndex / NoteIndexItem / NoteForm
-![notes]
+## TrackIndexItem
+![track]
 
-## NotebooksIndex / NotebookIndexItem
-![notebooks]
+## TracksIndex
+![tracks]
 
-## NoteBookForm
-![notebook-form]
+## Landing
+![landing]
 
 ## Component Heirarchy
 ![component-heirarchy]
 
 [new-user]: ./wireframes/new_user.png
 [new-session]: ./wireframes/new_session.png
-[notes]: ./wireframes/root_notes.png
-[notebooks]: ./wireframes/root_notebooks.png
-[notebook-form]: ./wireframes/notebook_form.png
-[component-heirarchy]: ./wireframes/component_heirarchy.png
+[tracks]: ./wireframes/tracks_index.png
+[landing]: ./wireframes/landing_page.png
+[track]: ./wireframes/track_item.png
+[component-heirarchy]: ./wireframes/components.png
