@@ -14,12 +14,15 @@ and React.js. TBD allows users to:
 - [ ] Create an account
 - [ ] Log in / Log out
 - [ ] Upload, update, play, and delete tracks
-- [ ] Tracks can organized into albums by their creator
-- [ ] Any public tracks can be added to a playlist
-- [ ] Search for tracks by artist, song title, album, popularity(play count)
 - [ ] Render a waveform representation of each track
+- [ ] Any track can be added to a playlist
+
+## Reach Goals
+
 - [ ] Allow users to leave timestamped comments for a track which are shown in sync when the song is played by others
 - [ ] Allow browsing through the site while maintaining song playback
+- [ ] Tracks can organized into albums by their creator
+- [ ] Search for tracks by artist, song title, album, popularity(play count)
 
 ## Design Docs
 * [View Wireframes][view]
@@ -52,7 +55,7 @@ I think using AWS to host these files will be the key to completing this phase.
 
 [Details][phase-two]
 
-### Phase 3: Albums and Playlists (2 days)
+### Phase 3: Playlists and Search (2 days)
 
 Phase 3 adds organization to the Tracks. Tracks optionally belong to an Album, which has
 its own `Index` view. Create JSON API for Albums. Tracks can also now be

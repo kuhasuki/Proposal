@@ -14,20 +14,19 @@ album_id    | integer   | not null, foreign key (references notebooks), indexed
 file_url    | string    | not null, (thinking of using amazon web services for cdn)
 play_count  | integer   | not null
 
-## albums
+# tracklist (join table)
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-artist_id   | integer   | not null, foreign key (references users), indexed
-title       | string    | not null
-track_list  | string    | 
+track_id    | integer   | not null, foreign key (references tracks), indexed
+playlist_id | integer   | not null, foreign key (references playlists), indexed
+ord         | integer   | not null
 
 ## playlist
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
 creator_id  | integer   | not null, foreign key (references users), indexed
-track_list  | string    | 
 
 ## follows
 column name | data type | details
@@ -53,4 +52,4 @@ id              | integer   | not null, primary key
 author_id       | integer   | not null, indexed, foreign key (references users), unique
 body            | text      | not null
 track_id        | integer   | not null, foreign key (references tracks), indexed
-timestamp       | string    | not null, identifies location to place comment through duration of track
+timestamp       | integer   | not null, identifies location to place comment through duration of track
